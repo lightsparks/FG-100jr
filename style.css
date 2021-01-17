@@ -11,7 +11,13 @@ body {
   width: 70vw;
 }
 
-h1,
+h1 {
+  margin: auto;
+  text-align: center;
+  font-family: 'Sansation', cursive;
+}
+
+
 h2 {
   margin: auto;
   text-align: center;
@@ -19,7 +25,7 @@ h2 {
 }
 
 h1 {
-  margin-top: 200px;
+  margin-top: 150px;
   color: #EDF2F4;
   font-size: 65px;
   text-shadow: 2px 2px 5px #000000;
@@ -33,23 +39,20 @@ h2 {
   animation:blinking 0.5s infinite;
 }
 
+.StrikLOGO {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
 @keyframes blinking{
 0%{   color: red;   }
 47%{   color: red; }
 62%{   color: transparent; }
 97%{   color: lightblue; }
 100%{  color: #FFF; }
-}
-
-.klok-container {
-  border-radius: 50px;
-  align-items: center;
-  /*background: #8D99AE;*/
-  font-family: 'Source Code Pro', monospace;
-  text-align: center;
-  color: #EDF2F4;
-  font-size: 80px;
-  text-shadow: 2px 2px 5px #000000;
 }
 
 .pyro > .before, .pyro > .after {
