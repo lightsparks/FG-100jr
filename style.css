@@ -34,6 +34,7 @@ h2 {
 
 .StrikLOGO {
   margin: auto;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   width: 480px;
